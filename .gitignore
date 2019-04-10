@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+*.iml
+target
+*.jar
+*.lst
+/.settings
+*.classpath
+*.component
+*.container
+*.jsdtscope
+*.name
+*.prefs
+*.project
+
