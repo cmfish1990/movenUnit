@@ -31,8 +31,7 @@ public class CompletionServiceRun {
             for (int i = 0; i < 10; i++) {
                 Future<Bean> future= completionService.take();
                 if(future!=null){
-
-                    System.out.println("=================end=======================");
+                    System.out.println(future.get().getTaskCount()+"任务end");
                 }
             }
         }
